@@ -1,4 +1,6 @@
 /*
+=== Python ===
+
 >>> x = {"dog": "Woof", "cat": "Meow"}
 >>> for k, v in x.items():
 ...   print "%s=%s" % (k, v)

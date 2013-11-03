@@ -1,4 +1,6 @@
 /*
+=== Python ===
+
 def max2(x, y): return x if x > y else y
 
 >>> max2(17, 19)
