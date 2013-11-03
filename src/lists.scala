@@ -37,8 +37,8 @@ val list2 = List(3, 4)
 val biglist = list1 ::: list2
 
 /*
-NOTE: In Scala, Lists are immutable. Python's lists, however, are mutable.
-If you want mutability, use Scala's Array.
+Note: In Scala, Lists are immutable. Python's lists, however, are mutable.
+Arrays, on the other hand, are mutable.
 */
 
 // scala, prepend an element (using the "cons" operator, ::) to an existing
