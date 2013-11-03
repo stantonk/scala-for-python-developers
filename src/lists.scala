@@ -60,3 +60,17 @@ inefficient:
 
 list1.insert(0, 1)
 */
+
+/*
+=== Python ===
+
+Sorting a list:
+
+alist = [7, 2, 18, 3, 6]
+sorted(alist) # returns a new list, sorted
+alist.sort() # sorts the list in place
+
+*/
+
+val alist = List(7, 2, 18, 3, 6)
+println(alist.sorted)
