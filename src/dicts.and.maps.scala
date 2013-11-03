@@ -13,8 +13,8 @@ the dog says Woof and the cat says Meow
 quack
 
 >>> x['fox'] = '??????'
->>> print "what the fox say: " + x['fox']
-what the fox say: ??????
+>>> print "what does the fox say: " + x['fox']
+what does the fox say: ??????
 */
 
 var x = Map("dog" -> "Woof", "cat" -> "Meow")
@@ -31,5 +31,5 @@ println(x.getOrElse("duck", "quack"))
 
 x += ("fox" -> "??????")
 
-println("what the fox say: " + x("fox"))
-// what the fox say: ??????
+println("what does the fox say: " + x("fox"))
+// what does the fox say: ??????
