@@ -3,6 +3,7 @@
 
 class Dog(object):
     def __init__(self, name):
+        print 'This line runs upon instantiation'
         self.name = name
 
     def speak(self):
