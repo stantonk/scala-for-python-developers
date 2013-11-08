@@ -20,13 +20,13 @@ what does the fox say: ??????
 */
 
 var x = Map("dog" -> "Woof", "cat" -> "Meow")
-println("the dog says " + x("dog") + " and the cat says " + x("cat")) // like lists, note parens..not brackets
-// the dog says Woof and the cat says Meow
-
 for ((k, v) <- x)
   printf("%s=%s\n", k, v)
 // dog=Woof
 // cat=Meow
+
+println("the dog says " + x("dog") + " and the cat says " + x("cat")) // like lists, note parens..not brackets
+// the dog says Woof and the cat says Meow
 
 println(x.getOrElse("duck", "quack"))
 // quack
